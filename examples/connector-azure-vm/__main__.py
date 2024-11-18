@@ -182,9 +182,9 @@ for i in range(1, connectors + 1):
                                                    ),
                                                    storage_profile=azure.compute.StorageProfileArgs(
                                                        image_reference=azure.compute.ImageReferenceArgs(
-                                                           offer="0001-com-ubuntu-server-jammy",
+                                                           offer="ubuntu-24_04-lts",
                                                            publisher="Canonical",
-                                                           sku="22_04-lts-gen2",
+                                                           sku="server",
                                                            version="latest",
                                                        ),
                                                    )
