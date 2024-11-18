@@ -184,7 +184,7 @@ for i in range(1, connectors + 1):
                                                        image_reference=azure.compute.ImageReferenceArgs(
                                                            offer="0001-com-ubuntu-server-jammy",
                                                            publisher="Canonical",
-                                                           sku="22_04-lts-gen2",
+                                                           sku="24_04-lts-gen2",
                                                            version="latest",
                                                        ),
                                                    )
